@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==========titles=======================-->
+    <title>Portfolio Website</title>
+    <!---==== css=========-->
+    <link rel="stylesheet" href="style.css">
+    <!--=======fav-icon=======-->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <!--===== import poppins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+ rel="stylesheet">
+<!----=====link icons===========-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!--- AOS animation form-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+   <div class="main-container">
+   <!--=====Menu and Profile=================-->
+   <div class="menu-profile">
+  <!----header========-->
+  <header>
+    <nav>
+        <!--dark-light-icon---->
+        <button class="dark-light-btn bg-gradient">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+        <!--menu-->
+        <ul>
+            <!----About====-->
+            <li><a href="#about-us" data-label="About" class="active">
+                <i class="fa-solid fa-address-book"></i></a>
+            </li>
+            <!----Skills========-->
+            <li><a href="#skills" data-label="Skill">
+                <i class="fa-solid fa-layer-group"></i>
+            </a></li>
+            <!-----Services======-->
+            <li><a href="#services" data-label="Services">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </a></li>
+             <!-----Projects======-->
+            <li><a href="#projects" data-label="Projects">
+                <i class="fa-solid fa-briefcase"></i>
+            </a></li>
+             <!-----Education and work experience======-->
+            <li><a href="#edu-work" data-label="Education And Work">
+                <i class="fa-solid fa-file-lines"></i>
+            </a></li>
+             <!-----Clients======-->
+            <li><a href="#testimonials" data-label="Testimonials">
+                <i class="fa-solid fa-comment-dots"></i>
+            </a></li>
+             <!-----Contact======-->
+            <li><a href="#contact" data-label="Contact">
+                <i class="fa-solid fa-paper-plane"></i>
+            </a></li>
+        </ul>
+    </nav>
+  </header>
+  <!---======profile=====-->
+<div class="profile-container">
+  <div class="user-profile bg-gredient">
+    <!---profile-box-->
+        <div class="user-profile-container">
+            <!---==img===-->
+             <div class="user-profile-img">
+                <img src="images/sham.jpg" alt="Eng Sham">
+             </div>
+               <div class="user-profile-text">
+                <span>Web Developer</span>
+                <h1>Eng.Shukri Aden</h1>
+                <!--social-->
+                 <div class="profile-social-container">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                     </div>
+                  </div>
+        
+                 
+          </div>
+              <!----btns-->
+          <div class="user-profile-btns">
+            <a href="Shukri A CV.pdf" target="_blank">Download CV</a>
+            <a href="#contact">Contact Me</a>
+      </div>
+</div>
+</div>
+
+
+   </div>
+   <!----===== all content=================-->
+   <div class="all-content">
+        <!---====About-us-->
+        <section id="about-us" class="section-container">
+            <h3> Hello, I'm <span id="role">Web Developer</span></h3>
+            <h1>Senior <span>Software</span> Developer in Jigjiga City, Ethiopia</h1>
+            <p>I am a software engineer with over 3 years of experience, currently working at Jigjiga University.
+                 My expertise spans web development, mobile apps, and backend systems. I have contributed to various projects across multiple companies, delivering scalable and efficient software solutions. I am passionate about staying up-to-date with the latest technologies and continuously improving my skills. My focus is on creating high-quality, 
+                user-friendly applications that meet both client needs and technical standards.</p>
+              <!---projects completed-->
+              <div class="project-container-about">
+                <!--box-->
+                <div class="project-container-box">
+                    <span>10+</span>
+                    <strong>Completed Projects</strong>
+                </div>
+                <!--box-->
+                <div class="project-container-box">
+                    <span>3+</span>
+                    <strong>Years of Experience</strong>
+                </div>
+                <!--box-->
+                <div class="project-container-box">
+                    <span>8+</span>
+                    <strong>Awards Winning</strong>
+                </div>
+              </div>
+            </section>
+            <!-----====skills-->
+            <section class="section-container" id="skills">
+                 <!--header-->
+                 <div class="section-heading">
+                    <span><i class="fa-solid fa-layer-group"></i>technical Skills</span>
+                    <h3>Technologies</h3>
+                 </div>
+
+
+                 <!--container-->
+                 <div class="skill-box-container" >
+
+                       <!--Html AND css-->
+                     <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML & CSS</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 95%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">95%</span>
+                    </div>
+                    
+                    <!--Boostrap-->
+                    <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <span>Boostrap</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 95%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">95%</span>
+                    </div>
+                    
+                    <!--Boostrap-->
+                     <!--Recat-->
+                     <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-react"></i>
+                        <span>ReactJs</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 90%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">90%</span>
+                    </div>
+
+
+
+
+                       <!--PHP-->
+                       <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 95%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">95%</span>
+                    </div>
+                    
+                    <!--phython-->
+                    <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 80%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">70%</span>
+                    </div>
+                     
+                   
+                    
+                    <!--Node.js-->
+                     <div class="skill-box bg-gredient"   data-aos="fade-up">
+                        <div class="skill-box-content">
+                        <i class="fa-brands fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 70%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">70%</span>
+                    </div>
+                   
+
+                    <!--Mysql-->
+                     <div class="skill-box bg-gredient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-database"></i>
+                        <span>Mysql</span>
+                    </div>
+                          <!--bar-->
+                    <div class="skill-box-bar">
+                        <span style="width: 90%;"></span>
+                    </div>
+                    <!--percentage-->
+                 <span class="skill-box-percentage">90%</span>
+                    </div>
+                </div>
+                <!--messages-->
+                <p class="service-message">Contact Me For Need Any Help And Services <a href="#">let's get Started</a></p>
+            </section>
+            <!----services-->
+        <section id="services" class="section-container">
+            <div class="section-heading">
+                <span><i class="fa-solid fa-screwdriver-wrench"></i>Our Services</span>
+                <h3>What Services I Provide ?</h3>
+             </div>
+             <!--container-->
+                <div class="service-container">
+                <!--box-->
+                <div class="service-box bg-gredient" data-aos="fade-up">
+                    <!--heading-->
+                    <div class="service-box-heading">
+                        <!--icon-->
+                        <div class="service-box-icon">
+                               <img src="images/graphic.png" alt="graphic/">
+                        </div>
+
+                          <!---text-->
+                        <div class="services-box-heading-text">
+                           <span>2 Developers</span> <strong>Graphic Designer</strong>
+                           
+                        </div>
+                    </div>
+                  <!---details-->
+                  <p class="service-box-details">
+                    I lead a team of two developers, collaborating with a graphic designer using tools like Adobe XD and Figma to create visually engaging UI/UX designs, 
+                    ensuring the delivery of scalable and efficient software solutions with seamless user experiences
+                  </p>
+                  <!--link-->
+                  <a href="#">Get Started</a>
+                </div>
+
+                <!--box-->
+                <div class="service-box bg-gredient" data-aos="fade-up">
+                    <!--heading-->
+                    <div class="service-box-heading">
+                        <!--icon-->
+                        <div class="service-box-icon">
+                               <img src="images/web.png" alt="graphic/">
+                        </div>
+
+                          <!---text-->
+                        <div class="services-box-heading-text">
+                           <span>4 Developers</span> <strong>Web Developer</strong>
+                           
+                        </div>
+                    </div>
+                  <!---details-->
+                  <p class="service-box-details">
+                    As part of a team of four developers, I collaborate to design, 
+                    develop, and deploy high-quality, responsive websites using languages and frameworks such as HTML, CSS, JavaScript, PHP, Node.js, and React.js, 
+                    ensuring seamless functionality and exceptional user experiences on each project.
+                  </p>
+                  <!--link-->
+                  <a href="#">Get Started</a>
+                </div>
+
+                <!--box-->
+                <div class="service-box bg-gredient" data-aos="fade-up">
+                    <!--heading-->
+                    <div class="service-box-heading">
+                        <!--icon-->
+                        <div class="service-box-icon">
+                               <img src="images/tech.png" alt="graphic/">
+                        </div>
+
+                          <!---text-->
+                        <div class="services-box-heading-text">
+                           <span>2 Developers</span> <strong>Technical Preparation</strong>
+                           
+                        </div>
+                    </div>
+                  <!---details-->
+                  <p class="service-box-details">
+                     Detailed data workflow description, solution design, and architecture, 
+                    ensuring scalable and efficient systems that meet project requirements and optimize performance.
+                  </p>
+                  <!--link-->
+                  <a href="#">Get Started</a>
+                </div>
+
+                <!--box-->
+                <div class="service-box bg-gredient" data-aos="fade-up">
+                    <!--heading-->
+                    <div class="service-box-heading">
+                        <!--icon-->
+                        <div class="service-box-icon">
+                               <img src="images/devops.png" alt="graphic/">
+                        </div>
+
+                          <!---text-->
+                        <div class="services-box-heading-text">
+                           <span>1 Developers</span> <strong>DevOps</strong>
+                           
+                        </div>
+                    </div>
+                  <!---details-->
+                  <p class="service-box-details">
+                    I empower clients by automating workflows, optimizing infrastructure,
+                     and ensuring seamless deployment with scalable,
+                     reliable cloud solutions that drive efficiency and performance.
+                  </p>
+                  <!--link-->
+                  <a href="#">Get Started</a>
+                </div>
+                </div>
+             <p class="service-message">Contact Me For Need Any Help And Services <a href="#">let's get Started</a></p>
+         </section>
+        <!---===== projects -->    
+            <section id="projects" class="section-container">
+               <!---heading-->
+            <div class="section-heading">
+                <span> <i class="fa-solid fa-briefcase"></i>Projects</span>
+                <h3>Explore portfolio By Technology</h3>
+            </div>
+            <!---filter-->
+            <ul class="project-list">
+                <li class="active" data-filter="all">All</li>
+                <li  data-filter="ReactJs">ReactJs</li>
+                <li  data-filter="Figma">Figma</li>
+            </ul>
+            <!---container-->
+            <div class="project-container">
+                <!--projects-->
+                <a href="#" class="project-box" data-category="ReactJs" data-aos="fade-up">
+                    <!--img-->
+                    <div class="project-box-img">
+                        <img src="images/Capture3.PNG" alt="projects">
+                    </div>
+                    <!---text-->
+                    <div class="project-box-text-container">
+                        <!--detail-->
+                        <div class="project-box-text">
+                            <strong>Dashboard of the Website Student Discipline Record system</strong>
+                            <span>Html, css, JavaScript, Boostrap, PHP & Mysql</span>
+                        </div>
+                        <!---link Icon-->
+                        <div class="project-box-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="project-box" data-category="ReactJs" data-aos="fade-up">
+                    <!--img-->
+                    <div class="project-box-img">
+                        <img src="images/p1.jpg" alt="projects">
+                    </div>
+                    <!---text-->
+                    <div class="project-box-text-container">
+                        <!--detail-->
+                        <div class="project-box-text">
+                            <strong>Dashboard of the Company service</strong>
+                            <span>Tailwind Css , React Js</span>
+                        </div>
+                        <!---link Icon-->
+                        <div class="project-box-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="project-box" data-category="Figma" data-aos="fade-up">
+                    <!--img-->
+                    <div class="project-box-img">
+                        <img src="images/Capture.PNG" alt="projects">
+                    </div>
+                    <!---text-->
+                    <div class="project-box-text-container">
+                        <!--detail-->
+                        <div class="project-box-text">
+                            <strong>Login Page Student Dorminatory Management Sytsem for JJU</strong>
+                            <span>Html, css, JavaScript, Boostrap</span>
+                        </div>
+                        <!---link Icon-->
+                        <div class="project-box-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </section>
+         <!----===Work and Education-->
+         <section id="edu-work" class="section-container">
+              <!---heading-->
+              <div class="section-heading">
+                <span> <i class="fa-regular fa-file-lines"></i>Resume</span>
+                <h3>Work Experience & Education</h3>
+            </div>
+
+            <!---=====container-->
+            <div class="edu-work-container">
+                <!----Education==============-->
+                <div class="edu-container">
+                  <span class="edu-work-label">
+                    <i class="fa-solid fa-building-columns"></i>
+                    Education
+                  </span>
+                  <!---box-container-->
+                  <div class="edu-work-box-container">
+                    <!--box-->
+                    <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2018/19 
+                            2021/22</span>
+                        <strong>B.Sc. Software Engineering </strong>
+                        <span class="edu-work-location">JJU,ethiopia</span>
+                        <p>My years in JJU is one of the most profound years of my life. It was during my campus years I've built most of my projects and participated in clubs and events. I've made some incredible memories in there and learnt so much and the current version 
+                            of me was very much shaped because of it</p>
+                    </div>
+                    
+                     <!--box-->
+                     <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2016/17 
+                            2015/16</span>
+                        <strong>Secondary School and Preparatory 
+                            school  </strong>
+                        <span class="edu-work-location">Deka Secondary and Preparatory School</span>
+                        <p>These few years were some of my favorite years in school where I had to start as new and ready myself for what is coming</p>
+                    </div>
+
+                     <!--box-->
+                     <!-- <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2018-2022</span>
+                        <strong>Bs in Software Engineering</strong>
+                        <span class="edu-work-location">JJU,ethiopia</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Laboriosam modi velit labore dolorum autem numquam!</p>
+                    </div> -->
+                  </div>
+                </div>
+                <!---========Work=========-->
+                <div class="work-container">
+                    <span class="edu-work-label">
+                 <i class="fa-solid fa-briefcase"></i>
+                 Work
+                </span>
+                  <!---box-container-->
+                  <div class="edu-work-box-container">
+                    <!--box-->
+                    <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2019-2022</span>
+                        <strong>Proctor – Dormitory Management</strong>
+                        <span class="edu-work-location"> Jigjiga University, Ethiopia</span>
+                        <p>My time as a proctor was more than just enforcing rules—it was about creating a space where students felt secure and supported. From managing dormitory affairs to resolving conflicts, I learned valuable skills in communication, problem-solving, and teamwork, shaping me into a more confident and capable individual.</p>
+                    </div>
+                    
+                     <!--box-->
+                     <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2022-2023</span>
+                        <strong>Computer Maintenance Technician</strong>
+                        <span class="edu-work-location">Jigjiga Boarding School,ethiopia</span>
+                        <p>My experience in computer maintenance taught me the importance of precision and attention to detail. Whether it was assembling and upgrading hardware, installing operating systems, or resolving network issues, I gained practical knowledge that strengthened my 
+                        technical expertise and ability to adapt to evolving technology.</p>
+                    </div>
+
+                      <!--box-->
+                      <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2022-2025</span>
+                        <strong>Lecturer</strong>
+                        <span class="edu-work-location">Jigjiga University,ethiopia</span>
+                        <p>My experience as a lecturer has honed my ability to simplify complex topics and engage students through interactive teaching methods. I’ve developed strong communication skills, ensuring students 
+                            grasp key concepts and stay motivated throughout the course</p>
+                    </div>
+
+                     <!--box-->
+                     <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2022-2023/2024</span>
+                        <strong>Full Stack Developer (Application Development Team)</strong>
+                        <span class="edu-work-location">JJU,ethiopia</span>
+                        <p>My role as a Full Stack Developer at Jigjiga University allowed me to build and maintain web applications that improved university operations and digital services.
+                         I worked on both the frontend and backend, ensuring seamless functionality, security, and scalability</p>
+                    </div>
+
+                     <!--box-->
+                     <div class="edu-work-box" data-aos="fade-up">
+                        <span class="edu-work-year">2023/2024-2025 (present)</span>
+                        <strong> Head of Department Software engineering</strong>
+                        <span class="edu-work-location">JJU,ethiopia</span>
+                        <p>As the Head of Department at Jigjiga University, I oversee the academic and administrative management of a department comprising over 200 regular students, 300 extension students, and 25 faculty and staff members. My role involves strategic planning, faculty supervision, student support, and curriculum development to ensure high-quality education 
+                        and effective departmental operations</p>
+                    </div>
+                     
+                  </div>
+                </div>
+            </div>
+
+         </section>
+        <!---=== Clients=======--->
+        <section id="testimonials" class="section-container">
+          <!----Heading-->
+            <!---heading-->
+            <div class="section-heading" data-aos="fade-up">
+                <span> <i class="fa-regular fa-comment-dots"></i>Testimonials</span>
+                <h3>Here's what my clients say</h3>
+            </div>
+         <!---===container--> 
+            <div class="testimonials-container">
+
+                 <!-- Slider -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <!--slide-->
+                        <div class="swiper-slide">
+                              <!--box-->
+                            <div class="testimonials-box bg-gredient">
+                                <!---review-->
+                                <div class="testimonials-reviews">
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>I want to sincerely thank Mr.shukri Aden for his exceptional work on my project. 
+                                    he demonstrated professionalism, creativity, and attention to detail throughout the entire process. The final result exceeded my expectations, and I truly appreciate their dedication. 
+                                    I highly recommend them to anyone looking for high-quality work!</p>
+                                   <div class="client-profile">
+                                       <!--img-->
+                                       <div class="client-profile-img">
+                                           <img src="images/c12.jpg" alt="client">
+                                       </div>
+                                       <!--text-->
+                                       <div class="client-profile-text">
+                                          <strong>Mr Abdifatah Mohamed</strong>
+                                           <span>CEO , Sahah Tech</span>
+                                       </div>
+                                   </div>
+                           </div>
+                       
+                        </div><!--slide end-->
+                        
+                        <div class="swiper-slide">
+                            <!--box-->
+                          <div class="testimonials-box bg-gredient">
+                              <!---review-->
+                              <div class="testimonials-reviews">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                              </div>
+                              <p>I had a fantastic experience working with Mr.shukri Aden. He understood my requirements perfectly and delivered the project on time with great quality. his communication
+                                 and problem-solving skills were outstanding. I am extremely happy with the 
+                                outcome and would definitely work with them again!</p>
+                                 <div class="client-profile">
+                                     <!--img-->
+                                     <div class="client-profile-img">
+                                         <img src="images/c122.jpg">
+                                     </div>
+                                     <!--text-->
+                                     <div class="client-profile-text">
+                                        <strong>Mr Badri Abdi</strong>
+                                         <span>CEO , Tusse Academy</span>
+                                        </div>
+                                    </div>
+                            </div>
+                        
+                         </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+              
+               
+            </div>
+          <!--message-->
+          <p class="testimonials-message" data-aos="fade-up">
+            More than <span>200+ companies</span> trusted us worlwide
+          </p>
+        </section>
+       <!---contact-->
+        <section id="contact" class="section-container">
+             <!---heading-->
+             <div class="section-heading">
+                <span> <i class="fa-solid fa-paper-plane"></i>Contact</span>
+                <h3>Let's Get In Touch!</h3>
+
+            </div>
+             <!--container-->
+             <div class="contact-box-container">
+                <!--box-->
+                <div class="contact-box bg-gredient" data-aos="fade-up">
+                    <!--icon-->
+                    <div class="contact-box-icon">
+                        <i class="fa-solid fa-address-book"></i>
+                        <strong>Phone</strong>
+                    </div>
+                     <!--detail-->
+                     <span>+251910338869</span>
+                </div>
+                 <!--box-->
+                 <div class="contact-box bg-gredient" data-aos="fade-up">
+                    <!--icon-->
+                    <div class="contact-box-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                        <strong>Address</strong>
+                    </div>
+                     <!--detail-->
+                     <span>shukriaden8869@gmail.com</span>
+                </div>
+                 <!--box-->
+                 <div class="contact-box bg-gredient contact-box-location" data-aos="fade-up">
+                    <!--icon-->
+                    <div class="contact-box-icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <strong>Location</strong>
+                    </div>
+                     <!--detail-->
+                     <span>Jigjiga, Ethiopia</span>
+                </div>
+             </div>
+            <!--map-->
+            <div class="contact-map" data-aos="fade-up">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31494.296274480148!2d42.7948808!3d9.35210485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x162e37392eebcd55%3A0x9c2d6307fe7dabfa!2sJijiga!5e0!3m2!1sen!2set!4v1743496292522!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen=""
+                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <!-- AOS for animation-->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    //word transition effect
+    document.addEventListener("DOMContentLoaded",()=>{
+        const roles = ['Web Developer','Software Engineer','Full Stack Developer'];
+        const roleElement = document.getElementById('role');
+        let roleIndex = 0;
+        let letterIndex = 0;
+        let typingInterval;
+        function typeRole(){
+            roleElement.style.opacity = 0;
+            setTimeout(()=>{
+                roleElement.textContent = "";
+                letterIndex = 0;
+                typingInterval = setInterval(()=>{
+                     if(letterIndex<roles[roleIndex].length){
+                        roleElement.textContent += roles[roleIndex].charAt(letterIndex);
+                        letterIndex++;
+                     }else{
+                        clearInterval(typingInterval);
+                        setTimeout(()=>{
+                            roleIndex =(roleIndex+1)%roles.length;
+                            typeRole();
+                        },1000);
+                     }
+                },150);
+                roleElement.style.opacity = 1;
+            },500);
+        }
+        //start typing first role
+        typeRole();
+    });
+      //project filter
+      document.addEventListener("DOMContentLoaded" , function () {
+        const filterButtons = document.querySelectorAll('.project-list li');
+        const projects = document.querySelectorAll('.project-box');
+
+        filterButtons.forEach((button)=>{
+            button.addEventListener("click",()=>{
+                filterButtons.forEach((btn)=>btn.classList.remove("active"));
+                button.classList.add("active");
+                const filter = button.getAttribute("data-filter");
+                projects.forEach((project)=>{
+                 if(filter === "all"){
+                    project.style.display = "block";
+                 }
+                 else if(project.getAttribute('data-category')===filter){
+                    project.style.display = "block";
+                 }
+                 else{
+                    project.style.display = "none";
+                 }
+                })
+            })
+        })
+      });
+    //testimonials slider
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },
+      },
+    });
+//    dark light mode
+  document.addEventListener("DOMContentLoaded",function(){
+    const toggleButton = document.querySelector(".dark-light-btn");
+    const htmlElement = document.documentElement;
+    const currentMode = localStorage.getItem("mode");
+    if(currentMode == "light"){
+         htmlElement.classList.add("light-mode");
+         toggleButton.innerHTML = "<i class='fa-regular fa-moon'></i>"
+    }
+    toggleButton.addEventListener("click", ()=>{
+        htmlElement.classList.toggle("light-mode");
+        //update the button icon
+        const islightMode = htmlElement.classList.contains("light-mode");
+        toggleButton.innerHTML = islightMode?"<i class='fa-regular fa-moon'></i>": "<i class='fa-regular fa-sun'></i>";
+        //save 
+        localStorage.setItem("mode", islightMode ? "light" : "dark");
+    });
+    //nav auto acctive on thier section
+    const section = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("ul li a");
+    
+    function setActiveLink(){
+        let currentSection = "";
+        section.forEach((section) =>{
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+
+            if(window.scrollY >= sectionTop - sectionHeight / 3){
+                 currentSection = section.getAttribute("id");
+            }
+        });
+        
+        navLinks.forEach((link)=>{
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${currentSection}`) {
+                link.classList.add("active"); 
+            }
+        });
+    }
+     window.addEventListener("scroll", setActiveLink);
+     //AOS
+     AOS.init();
+  }); 
+</script>
+</body>
+</html>
