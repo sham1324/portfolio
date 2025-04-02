@@ -54,7 +54,8 @@ body{
     margin: 50px auto;
     display: grid;
     grid-template-columns: 425px 1fr;
-    grid-gap: 30px;
+    grid-gap: 10px;
+    padding-right: 20px;
     align-items: flex-start;
 }
 .menu-profile{
@@ -62,7 +63,7 @@ body{
     grid-template-columns: 65px 1fr;
     grid-gap: 10px;
     position: sticky;
-    top: 10px;
+    top: 10px; 
 }
 header{
     position: relative;
@@ -169,12 +170,13 @@ header ul li a.active
 .user-profile-container{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     width: 100%;
 }
 .user-profile-img{
     width: 100%;
     height: 280px;
+    display: flex;
     border-radius: 30px 0px 30px 30px;
     background-color: var(--text-color);
     overflow: hidden;
@@ -182,7 +184,7 @@ header ul li a.active
 .user-profile-img img{
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
 }
 .user-profile-text{
@@ -190,17 +192,18 @@ header ul li a.active
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .user-profile-text span{
     color: var(--main-color);
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-size: 0.92rem;
+    font-weight: 700;
 }
 .user-profile-text h1{
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 0.99rem;
     font-weight: 600;
     margin: 5px 0px;
 }
@@ -250,21 +253,18 @@ header ul li a.active
     padding: 45px 50px;
     display: flex;
     flex-direction: column;
-    margin-left: 95px;
 }
 .all-content{
     display: flex;
     flex-direction: column;
-    grid-gap: 40px;
+    grid-gap: 35px;
     width: 100%;
-    margin-left: 10px;
     overflow: hidden;
 }
 /*abou us*/
 #about-us{
     border-radius: 0px 30px 0px 0px;
     padding: 85px 50px;
-    margin-left: 100px;
 }
 #about-us h3{
     color: var(--text-color);
